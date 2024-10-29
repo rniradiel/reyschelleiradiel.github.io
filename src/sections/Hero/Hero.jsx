@@ -6,7 +6,7 @@ import githubLight from '../../assets/github-light.svg'
 import githubDark from '../../assets/github-dark.svg'
 import linkedinLight from '../../assets/linkedin-light.svg'
 import linkedinDark from '../../assets/linkedin-dark.svg'
-import CV from '../../assets/cv.pdf'
+import CV from '../../assets/Reyschelle Iradiel CV.pdf'
 import { useTheme } from '../../common/ThemeContext'
 
 function Hero() {
@@ -33,12 +33,12 @@ function Hero() {
                     <a href="https://github.com/rniradiel" target="_blank">
                         <img src={githubIcon} alt="Github Icon" />
                     </a>
-                    <a href="https://linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/in/reyschelleiradiel/" target="_blank">
                         <img src={linkedinIcon} alt="Linkedin Icon" />
                     </a>
                 </span>
                 <p className={styles.description}>
-                    With a passion for developing modern React web apps for commercial businesses.
+                With a passion for building modern web applications for commercial businesses using the latest frontend technologies.
                 </p>
                 <a href={CV} download>
                     <button className="hover">
