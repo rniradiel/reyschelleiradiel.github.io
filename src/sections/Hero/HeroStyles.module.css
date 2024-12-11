@@ -9,7 +9,6 @@
   
     .hero {
       max-width: 200px;
-      border-radius: 50%;
     }
   
     span {
@@ -80,9 +79,8 @@
   
   @media (width >= 800px) {
     .container {
-      flex-direction: row-reverse;
+      flex-direction: row;
       align-items: center;
-      justify-content: space-evenly;
   
       .hero {
         max-width: 350px;
