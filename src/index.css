@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-  body, h1, h2, h3, p {
+  body, h1, h2, h3 {
     @apply font-sans font-semibold; 
   }
   h1 {
@@ -15,6 +15,9 @@
   h3 {
     @apply text-3xl;
   }
+  p {
+    @apply font-sans;
+  }
 }
 
 @layer components {
@@ -23,5 +26,16 @@
   }
   .card {
     @apply bg-blue rounded;
+  }
+  .img-frame {
+    @apply relative;
+  }
+  .img-frame::before {
+    @apply absolute top-0 left-0;
+    @apply border-2 border-white;
+    @apply rounded-tl-lg rounded-br-lg;
+    @apply w-full h-full;
+    @apply pointer-events-none;
+    @apply content-[''];
   }
 }
