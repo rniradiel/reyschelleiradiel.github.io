@@ -1,4 +1,4 @@
-import styles from './SkillsStyles.module.css';
+
 import checkMarkIconDark from '../../assets/checkmark-dark.svg';
 import checkMarkIconLight from '../../assets/checkmark-light.svg';
 import SkillList from '../../common/SkillList';
@@ -9,29 +9,31 @@ function Skills() {
   const checkMarkIcon = theme === 'light' ? checkMarkIconLight : checkMarkIconDark;
 
   return (
-    <section id="skills" className={styles.container}>
+    <section id="skills" className='flex flex-col text-center'>
       <h2 className="text-purple mb-4 tracking-widest">What I Do</h2>
-      <h3 className="font-bold uppercase mb-8 tracking-widest">Specializing In</h3>
-      <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="HTML" />
-        <SkillList src={checkMarkIcon} skill="CSS" />
-        <SkillList src={checkMarkIcon} skill="JavaScript" />
-        <SkillList src={checkMarkIcon} skill="Jquery" />
-      </div>
-      <hr />
-      <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="React" />
-        <SkillList src={checkMarkIcon} skill="Vue" />
-        <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
-        <SkillList src={checkMarkIcon} skill="Bootstrap" />
-      </div>
-      <hr />
-      <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Git" />
-        <SkillList src={checkMarkIcon} skill="Github/Gitlab" />
-        <SkillList src={checkMarkIcon} skill="Graphql" />
-        <SkillList src={checkMarkIcon} skill="Docker" />
-        <SkillList src={checkMarkIcon} skill="Cypress" />
+      <h3 className="uppercase mb-8 tracking-widest">Specializing In</h3>
+      <div className="flex mx-auto">
+        <div className='flex flex-wrap w-min'>
+          <SkillList src={checkMarkIcon} skill="HTML" />
+          <SkillList src={checkMarkIcon} skill="CSS" />
+          <SkillList src={checkMarkIcon} skill="JavaScript" />
+          <SkillList src={checkMarkIcon} skill="Jquery" />
+        </div>
+        <hr />
+        <div className='flex flex-wrap w-min'>
+          <SkillList src={checkMarkIcon} skill="React" />
+          <SkillList src={checkMarkIcon} skill="Vue" />
+          <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
+          <SkillList src={checkMarkIcon} skill="Bootstrap" />
+        </div>
+        <hr />
+        <div className='flex flex-wrap w-min'>
+          <SkillList src={checkMarkIcon} skill="Git" />
+          <SkillList src={checkMarkIcon} skill="Github/Gitlab" />
+          <SkillList src={checkMarkIcon} skill="Graphql" />
+          <SkillList src={checkMarkIcon} skill="Docker" />
+          <SkillList src={checkMarkIcon} skill="Cypress" />
+        </div>
       </div>
     </section>
   );
