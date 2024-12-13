@@ -1,11 +1,10 @@
-import styles from './ContactStyles.module.css'
 
 function Contact() {
   return (
-    <section id="contact" className={styles.container}>
-        <div>
-          <h3>Have any project in mind?</h3>
-          <button className='hover'>Contact Me</button>
+    <section id="contact" className='flex justify-center items-center'>
+        <div className='card w-1/2 h-72 p-8 flex items-center justify-center flex-col'>
+          <h3 className='mb-8'>Have any project in mind ?</h3>
+          <button>Contact Me</button>
         </div>
     </section>
   )

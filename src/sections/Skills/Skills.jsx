@@ -11,7 +11,7 @@ function Skills() {
   return (
     <section id="skills" className={styles.container}>
       <h2 className="text-purple mb-4 tracking-widest">What I Do</h2>
-      <h3 className="font-bold uppercase mb-8">Specializing In</h3>
+      <h3 className="font-bold uppercase mb-8 tracking-widest">Specializing In</h3>
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="HTML" />
         <SkillList src={checkMarkIcon} skill="CSS" />

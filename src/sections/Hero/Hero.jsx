@@ -29,7 +29,7 @@ function Hero() {
                     With a passion for building modern web applications for commercial businesses using the latest frontend technologies.
                 </p>
                 <a href={CV} download>
-                    <button className="hover">
+                    <button>
                         Resume
                     </button>
                 </a>

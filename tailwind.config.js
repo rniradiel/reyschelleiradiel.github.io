@@ -8,6 +8,8 @@ export default {
     colors: {
       'white': '#FFFFFF',
       'purple': '#4C70EF',
+      'blue': '#292C36',
+      'light-blue': '#558FFF',
     },
     fontFamily: {
       sans: ['Poppins', 'sans-serif'],

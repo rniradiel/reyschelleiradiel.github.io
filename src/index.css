@@ -16,3 +16,12 @@
     @apply text-3xl;
   }
 }
+
+@layer components {
+  button {
+    @apply cursor-pointer bg-light-blue text-white rounded-md py-2 px-4 shadow-md transition-transform duration-200 ease-in-out hover:scale-105;
+  }
+  .card {
+    @apply bg-blue rounded;
+  }
+}
