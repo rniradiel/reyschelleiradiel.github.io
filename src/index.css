@@ -18,6 +18,9 @@
   p {
     @apply font-sans;
   }
+  a {
+    @apply cursor-pointer transition-transform duration-200 ease-in-out hover:scale-105;
+  }
 }
 
 @layer components {

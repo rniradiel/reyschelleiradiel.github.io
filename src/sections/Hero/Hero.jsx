@@ -8,7 +8,7 @@ function Hero() {
                 <h1 className='text-white mb-6'>
                     I'm Reyschelle Iradiel
                 </h1>
-                <h2 className='text-white text-xl md:text-2xl mb-6'>Front End Development</h2>
+                <h2 className='text-white text-xl md:text-2xl mb-6'>Front End Developer</h2>
                 <span className='flex items-center gap-4'>
                     <a href="https://github.com/rniradiel" target="_blank">
                         <img src={githubLight} alt="Github Icon" className='size-16' />

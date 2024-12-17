@@ -14,7 +14,7 @@ function About() {
                 <p className='text-gray'>
                     With a passion for building modern web applications for commercial businesses using the latest frontend technologies.
                 </p>
-                <a href={CV} download>
+                <a href={CV} className='max-w-fit' download>
                     <button>
                         Download CV
                     </button>
