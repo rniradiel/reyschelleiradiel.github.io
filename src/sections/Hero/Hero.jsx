@@ -11,10 +11,10 @@ function Hero() {
                 <h2 className='text-white text-xl md:text-2xl mb-6'>Front End Developer</h2>
                 <span className='flex items-center gap-4'>
                     <a href="https://github.com/rniradiel" target="_blank">
-                        <img src={githubLight} alt="Github Icon" className='size-16' />
+                        <img src={githubLight} alt="Github Icon" className='size-14' />
                     </a>
                     <a href="https://www.linkedin.com/in/reyschelleiradiel/" target="_blank">
-                        <img src={linkedinLight} alt="Linkedin Icon" />
+                        <img src={linkedinLight} alt="Linkedin Icon" className='size-12' />
                     </a>
                 </span>
             </div>
