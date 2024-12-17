@@ -31,11 +31,12 @@
     @apply relative;
   }
   .img-frame::before {
-    @apply absolute top-0 left-0;
+    @apply absolute top-4 left-4;
     @apply border-2 border-white;
     @apply rounded-tl-lg rounded-br-lg;
     @apply w-full h-full;
     @apply pointer-events-none;
     @apply content-[''];
+    @apply z-[-1];
   }
 }
