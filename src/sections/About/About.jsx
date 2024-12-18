@@ -4,7 +4,7 @@ import CV from '../../assets/Reyschelle Iradiel CV.pdf'
 
 function About() {
     return (
-        <section id="about" className='flex mx-auto w-4/6 gap-10'> 
+        <section id="about" className='flex flex-col md:flex-row mx-auto w-4/6 gap-10'> 
             <div className="img-frame">
                 <img className='rounded-tl-lg rounded-br-lg' src={heroImg} alt="Profile picture of Reyschelle Iradiel" />
             </div>

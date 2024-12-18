@@ -8,8 +8,8 @@ function Contact() {
 
   return (
     <section id="contact" className='flex justify-center items-center'>
-        <div className='card w-1/2 h-72 p-8 flex items-center justify-center flex-col'>
-          <h3 className='mb-8'>Have any project in mind ?</h3>
+        <div className='card w-3/4 md:w-1/2 h-72 p-8 flex items-center justify-center flex-col'>
+          <h3 className='text-center mb-8'>Have any project in mind ?</h3>
           <a href={mailtoLink}>
             <button>Contact Me</button>
           </a>

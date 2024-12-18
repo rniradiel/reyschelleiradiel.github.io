@@ -4,8 +4,8 @@ import linkedinLight from '../../assets/linkedin-dark.svg'
 function Hero() {
     return (
         <section id="hero" className='bg-banner-pattern h-screen bg-no-repeat w-full bg-cover'> 
-            <div className='flex items-center flex-col h-full justify-center'>
-                <h1 className='text-white mb-6'>
+            <div className='flex items-center flex-col h-full justify-center p-4'>
+                <h1 className='text-white mb-6 text-center'>
                     I'm Reyschelle Iradiel
                 </h1>
                 <h2 className='text-white text-xl md:text-2xl mb-6'>Front End Developer</h2>
