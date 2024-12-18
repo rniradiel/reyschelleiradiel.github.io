@@ -43,6 +43,6 @@
     @apply z-[-1];
   }
   section {
-    @apply h-screen flex justify-center items-center;
+    @apply xs:h-screen flex justify-center items-center;
   }
 }

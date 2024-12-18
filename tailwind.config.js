@@ -19,6 +19,9 @@ export default {
       backgroundImage: {
         'banner-pattern': "url('/src/assets/bg-image.png')",
       },
+      screens: {
+        'xs': '414px',
+      },
     },
   },
   plugins: [],

@@ -13,10 +13,14 @@ function App() {
   const [bgColor, setBgcolor] = useState('bg-transparent');
 
   const handleScroll = () => {
-    if (window.scrollY > window.innerHeight) {
-      setBgcolor('bg-blue')
+    if(window.innerWidth > 414) {
+      if (window.scrollY > window.innerHeight) {
+        setBgcolor('bg-blue')
+      } else {
+        setBgcolor('bg-transparent')
+      }
     } else {
-      setBgcolor('bg-transparent')
+      setBgcolor('bg-blue');
     }
   };
 
