@@ -1,11 +1,18 @@
 
-function ProjectCard({ src, link, h3, p }) {
+// eslint-disable-next-line react/prop-types
+function ProjectCard({ src, link, title }) {
   return (
-    <a href={link} target="_blank">
-      <img className="hover" src={src} alt={`${h3} logo`} />
-      <h3>{h3}</h3>
-      <p>{p}</p>
-    </a>
+     <div className="flex flex-col items-center w-fit bg-blue rounded">
+      <img className="max-w-60 rounded-t" src={src} alt={`${title} logo`} />
+      <span className="text-left p-4">
+        <p className="text-white mb-4">{title}</p>
+        <a href={link} target="_blank">
+          <button>
+            View Demo
+          </button>
+        </a>
+      </span>
+    </div>
   );
 }
 

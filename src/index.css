@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #ffffff; 
+  color: #000000;
+}
+
+body.dark {
+  background-color: #212121; 
+  color: #ffffff; 
+}
+
+@layer base {
+  body, h1, h2, h3 {
+    @apply font-sans font-semibold; 
+  }
+  h1 {
+    @apply text-3xl md:text-5xl;
+  }
+  h2 {
+    @apply text-xl md:text-2xl;
+  }
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+  p {
+    @apply font-sans;
+  }
+  a {
+    @apply cursor-pointer transition-transform duration-200 ease-in-out hover:scale-105;
+  }
+}
+
+@layer components {
+  button {
+    @apply cursor-pointer bg-light-blue text-white rounded-md py-2 px-4 shadow-md transition-transform duration-200 ease-in-out hover:scale-105;
+  }
+  .card {
+    @apply bg-blue rounded;
+  }
+  .img-frame {
+    @apply relative;
+  }
+  .img-frame::before {
+    @apply absolute top-4 left-4;
+    @apply border-4 dark:border-white border-blue;
+    @apply rounded-tl-lg rounded-br-lg;
+    @apply w-full h-full;
+    @apply pointer-events-none;
+    @apply content-[''];
+    @apply z-[-1];
+  }
+  section {
+    @apply xs:h-screen flex justify-center items-center;
+  }
+  .modeToggle {
+    @apply bg-transparent shadow-none p-0;
+  }
+}

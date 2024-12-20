@@ -1,13 +1,13 @@
-import styles from './FooterStyles.module.css';
 
 function Footer() {
+  const year = new Date().getFullYear();
+
   return (
-    <section id="footer" className={styles.container}>
-      <p>
-        &copy; 2024 Reyschelle Iradiel. <br />
-        All rights reserved.
+    <footer id="footer" className='card text-center py-4'>
+      <p className="text-white text-base">
+        All rights reserved &copy; {year} CV Reyschelle Iradiel
       </p>
-    </section>
+    </footer>
   );
 }
 
