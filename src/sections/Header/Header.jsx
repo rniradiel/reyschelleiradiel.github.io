@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
+import ThemeToggle from "../../common/ThemeToggle";
 
 // eslint-disable-next-line react/prop-types
 function Header({ bgColor }) {
@@ -47,6 +48,9 @@ function Header({ bgColor }) {
                     <Link to="contact" smooth={true} duration={500} onClick={() => setIsOpen(false)}>
                         Contact
                     </Link>
+                </li>
+                <li>
+                    <ThemeToggle />
                 </li>
             </ul>
         </nav>

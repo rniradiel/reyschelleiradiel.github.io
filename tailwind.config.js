@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -11,6 +12,7 @@ export default {
       'blue': '#292C36',
       'light-blue': '#558FFF',
       'gray': '#B0ADAD',
+      transparent: 'transparent',
     },
     fontFamily: {
       sans: ['Poppins', 'sans-serif'],

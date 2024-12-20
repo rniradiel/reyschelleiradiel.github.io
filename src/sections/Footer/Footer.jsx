@@ -4,7 +4,7 @@ function Footer() {
 
   return (
     <footer id="footer" className='card text-center py-4'>
-      <p className="text-base">
+      <p className="text-white text-base">
         All rights reserved &copy; {year} CV Reyschelle Iradiel
       </p>
     </footer>

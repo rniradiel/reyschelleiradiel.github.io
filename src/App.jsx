@@ -1,4 +1,5 @@
 import './App.css'
+import { useState, useEffect } from 'react'
 import Header from './sections/Header/Header'
 import Hero from './sections/Hero/Hero'
 import About from './sections/About/About'
@@ -6,8 +7,6 @@ import Projects from './sections/Projects/Projects'
 import Skills from './sections/Skills/Skills'
 import Contact from './sections/Contact/Contact'
 import Footer from './sections/Footer/Footer'
-import { useState } from 'react'
-import { useEffect } from 'react'
 
 function App() {
   const [bgColor, setBgcolor] = useState('bg-transparent');
