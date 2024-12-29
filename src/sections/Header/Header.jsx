@@ -23,7 +23,7 @@ function Header({ bgColor }) {
                     </svg>
                 </button>
             </div>
-            <ul className={`flex-col md:flex md:flex-row md:justify-end gap-8 p-8 md:mr-4 ${isOpen ? 'flex' : 'hidden'}`}>
+            <ul className={`flex-col md:flex md:flex-row md:justify-end md:items-center gap-8 p-8 md:p-6 md:mr-4 ${isOpen ? 'flex' : 'hidden'}`}>
                 <li className='hover:text-light-blue'>
                     <Link to="hero" smooth={true} duration={500} onClick={() => setIsOpen(false)}>
                         Home

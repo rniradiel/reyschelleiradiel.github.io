@@ -1,5 +1,6 @@
 
-import menuApp from '../../assets/menu-app.png';
+import menuApp from '../../assets/menuApp.png';
+import jobApp from '../../assets/jobPosting.jpg';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -12,6 +13,11 @@ function Projects() {
           src={menuApp}
           link="https://github.com/rniradiel/menu-app"
           title="Bite and Bliss - Food Web App"
+        />
+        <ProjectCard
+          src={jobApp}
+          link="https://github.com/rniradiel/job-posting-app"
+          title="Job Posting App"
         />
       </div>
     </section>
