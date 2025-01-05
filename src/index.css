@@ -53,7 +53,7 @@ body.dark {
     @apply z-[-1];
   }
   section {
-    @apply xs:h-screen flex justify-center items-center;
+    @apply my-20 xs:h-screen flex justify-center items-center;
   }
   .modeToggle {
     @apply bg-transparent shadow-none p-0;
